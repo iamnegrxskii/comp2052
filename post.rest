@@ -1,5 +1,0 @@
-POST http://127.0.0.1:5000/mensaje Content-Type: application/json
-
-{
-"mensaje": "Hola mi nombre es Jaziel y soy estudiante universitario en la Universidad Interamericana Recinto de Arecibo."
-}
