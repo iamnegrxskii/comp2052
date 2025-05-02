@@ -1,0 +1,12 @@
+[
+    {
+        "username": "admin",
+        "password_hash": "pbkdf2:sha256:260000$...", 
+        "role": "admin"
+    },
+    {
+        "username": "user",
+        "password_hash": "pbkdf2:sha256:260000$...", 
+        "role": "user"
+    }
+]
