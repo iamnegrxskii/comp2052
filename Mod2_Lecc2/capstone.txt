@@ -1,0 +1,25 @@
+1. Formulario de Registro de Usuario
+Campos:
+
+Nombre: StringField
+Correo electrónico: StringField
+Contraseña: PasswordField
+Confirmación de Contraseña: PasswordField
+Botón de envío: SubmitField
+
+Validaciones:
+Nombre: Obligatorio, mínimo 3 caracteres.
+Correo: Obligatorio, debe cumplir formato de email.
+Contraseña: Obligatoria, mínimo 6 caracteres.
+Confirmación de Contraseña: Debe coincidir con la contraseña.
+
+2. Formulario de Inicio de Sesión
+Campos:
+
+Correo electrónico: StringField
+Contraseña: PasswordField
+Botón de envío: SubmitField
+
+Validaciones:
+Correo: Obligatorio, debe cumplir formato de email.
+Contraseña: Obligatoria.
