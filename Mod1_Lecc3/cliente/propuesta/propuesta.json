@@ -1,0 +1,29 @@
+{
+    "usuarios": [
+      {
+        "id_usuario": 1,
+        "nombre": "Juan Perez",
+        "correo": "juan.perez@example.com"
+      },
+      {
+        "id_usuario": 2,
+        "nombre": "Ana Garcia",
+        "correo": "ana.garcia@example.com"
+      }
+    ],
+    "productos": [
+      {
+        "id_producto": 101,
+        "nombre": "Mac",
+        "precio_unitario": 800,
+        "cantidad": 10
+      },
+      {
+        "id_producto": 102,
+        "nombre": "Raton y Teclado",
+        "precio_unitario": 20,
+        "cantidad": 50
+      }
+    ]
+  }
+  

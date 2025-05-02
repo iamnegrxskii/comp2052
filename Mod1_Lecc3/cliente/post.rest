@@ -1,0 +1,5 @@
+POST http://127.0.0.1:5000/crear_usuario Content-Type: application/json
+
+{
+"nombre": "Lebron James", "correo": "LJames2323@arecibointer.edu"
+}
