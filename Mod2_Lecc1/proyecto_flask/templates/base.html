@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ titulo }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>{{ titulo }}</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/pagina1">Página 1</a>
+            <a href="/pagina2">Página 2</a>
+        </nav>
+    </header>
+    <main>
+        {% block contenido %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>Aplicación creada por Jeremy.</p>
+    </footer>
+</body>
+</html>
